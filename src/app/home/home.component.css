@@ -71,7 +71,7 @@ button {
     .container {
         width: 50%;
         color: #ffffff;
-        padding-top: 7em;
+        padding-top: 6em;
         padding-left: 6em;
     }
     .food-fo {
@@ -88,7 +88,7 @@ button {
     .container {
         width: 59%;
         color: #ffffff;
-        padding-top: 13em;
+        padding-top: 11em;
         padding-left: 4em;
     }
     .food-fo {
@@ -105,7 +105,7 @@ button {
     .container {
         width: 59%;
         color: #ffffff;
-        padding-top: 13em;
+        padding-top: 11em;
         padding-left: 4em;
     }
     .food-fo {
@@ -122,7 +122,7 @@ button {
     .container {
         width: 50%;
         color: #ffffff;
-        padding-top: 10em;
+        padding-top: 9em;
         padding-left: 7em;
     }
     .food-fo {
@@ -198,5 +198,13 @@ button {
     .my-img {
         width: 81%;
         padding-top: 7em;
+    }
+    .container h1 {
+        width: 235px;
+        font-size: 30px;
+    }
+    .container p {
+        
+        font-size: 15px;
     }
 }

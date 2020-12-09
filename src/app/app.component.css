@@ -26,11 +26,15 @@
 @media(max-width:568px)
 {
 .btn 
-{
-    position: relative;
-    right: 17em;
-    top: 4em;
+{    position: relative;
+    right: 10em;
+    top: 5em;
 }
+.email
+{
+    position: absolute;
+}
+
 }
 
 
