@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 80vh; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+@media(max-width:934px)
+{
+    .email
+    {
+        visibility: hidden;
+    }
+}
+
+@media(max-width:568px){
+    .btn
+    {
+        position: relative;
+        right: 8em;
+        top: 4em;
+    }
+}
+
