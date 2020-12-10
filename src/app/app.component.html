@@ -2,12 +2,12 @@
   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
     <mat-icon onclick="openNav()">menu</mat-icon>
   </button>
-  <span><img class="logo"  src="assets/logo.png"> </span>
+  <a  routerLink="home"><img class="logo"  src="assets/logo.png"></a>
   <span class="example-spacer"></span>
   <button  mat-button class="example-icon favorite-icon email" aria-label="Example icon-button with heart icon">
     <span class="material-icons">
       perm_phone_msg
-    </span>+91 9994727841s
+    </span>+91 9994727841
   </button>
   <button   mat-button class="example-icon email" aria-label="Example icon-button with share icon">
     <span class="material-icons">
@@ -24,11 +24,12 @@
 </mat-toolbar>
 
 
-<div id="mySidenav" class="sidenav">
+<div id="mySidenav" class="sidenav ">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a routerLink="home">Home</a>
-  <a href="#">Services</a>
-  <a href="#">Contact</a>
+  <a class="en-en" routerLink="home">Home</a>
+  <a class="en-en" routerLink="about">About</a>
+  <a class="en-en" routerLink="ourclient">Our Client</a>
+  <a class="en-en" routerLink="contact">Contact</a>
 </div>
 <router-outlet></router-outlet>
 

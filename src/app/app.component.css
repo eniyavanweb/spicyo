@@ -13,6 +13,7 @@
 
 .logo {
     padding-left: 40px;
+    cursor: pointer;
 }
 
 .email {
@@ -23,12 +24,20 @@
     z-index: 2;
 }
 
+.sidenav .en-en {
+    padding: 70px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 29px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
 @media(max-width:568px)
 {
 .btn 
-{    position: relative;
-    right: 10em;
-    top: 5em;
+{   
+    display: none;
 }
 .email
 {

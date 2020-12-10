@@ -1,0 +1,171 @@
+.all-con
+{
+    width: 100%;
+}
+
+.bg
+{
+    background-color: #d8b00f;
+    display: flex;
+}
+
+.row-1
+{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 71px;
+}
+
+.row-2
+{
+    padding-top: 3em;
+    flex: 0 0 56%;
+    max-width: 50%;
+    padding-right: 0px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row-2 img
+{
+    width: 95%;
+    height: 400px;
+    padding-top: 35px;
+}
+
+.heading h1
+{
+    font-size: 50px;
+    line-height: 1em;
+    padding-left: 23px;
+}
+
+.my
+{
+    padding: 10px 20px;
+}
+
+.my input
+{
+    padding: 10px 39px 10px 36px;
+    width: 80%;
+}
+
+.my textarea
+{
+    padding: 20px 39px 20px 36px;
+    width: 80%;
+}
+
+.my button
+{
+    padding: 4px 45px;
+}
+
+.bg-color
+{
+    background-image: linear-gradient(45deg, #f8c271, transparent);
+    padding-top: 44px;
+    padding-bottom: 44px;
+    text-align: center;
+    
+}
+
+.bg-color h3
+{
+    font-size: 40px;
+    padding: 10px 0px;
+}
+
+.bg-color input
+{
+    padding: 20px 43px 20px 45px;
+    border-radius: 10px ;
+    outline: none;
+    font-size: 14px;
+    margin: 10px;
+}
+.bg-color button
+{
+    padding: 12px 43px 12px 45px;
+    border-radius: 10px ;
+}
+
+
+
+
+@media(max-width:780px)
+{
+
+    .bg
+{
+    background-color: #d8b00f;
+    display: inline-block;
+}
+
+.row-1
+{
+    max-width: 100%;
+    padding-right: 75px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row-2 img
+{
+   
+    padding-top: 1px;
+}
+
+.heading
+{
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.heading h1
+{
+    font-size: 30px;
+}
+
+.row-2 
+{
+    
+    flex: 0 0 56%;
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+
+@media(max-width:410px){
+
+    
+    .bg-color button {
+        padding: 20px 43px 20px 45px;
+        margin-top: 2em;
+    }
+}
+
+@media(max-width:380px){
+
+    .row-2 img
+    {
+        width: 95%;
+        height: 222px;
+    }
+    .bg-color button {
+        padding: 20px 43px 20px 45px;
+        margin-top: 2em;
+    }
+}
+
+
+
