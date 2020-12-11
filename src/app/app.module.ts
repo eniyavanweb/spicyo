@@ -14,7 +14,7 @@ import { OurclientComponent } from './ourclient/ourclient.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  {path:'home',component:HomeComponent},
+  {path:'**',component:HomeComponent},
   {path:'about',component:AboutComponent},
   {path:'ourclient',component:OurclientComponent},
   {path:'contact',component:ContactComponent}
